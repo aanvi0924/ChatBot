@@ -1,0 +1,6 @@
+false>,fm_optical_health_monitor_interval=60 <fabric-manager-x.x.x-xx.tgz>
+2. After the installation is complete, execute the following commands in the order they are listed 
+below to register the element service (internal service) with the DFM database:
+kubectl exec -it fmrelease-fm-resource-manager-xxxx -n fabric-manager -- bash
+curl -H "Content-Type: application/json"   -H "Authorization: Basic YWRtaW46YWRtaW4=" 
+ -d'{"RemoteRedfishServiceUri" :"https://

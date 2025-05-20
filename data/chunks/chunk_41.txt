@@ -1,0 +1,7 @@
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 12 DSP Installation Guide, Version 3.2.0
+c. Edit the firewall rule to allow access to the public/admin network in this switch.
+d. Save the changes to the firewall rule.
+e. Test the updated firewall rule to ensure connectivity to the public/admin network in this 
+switch.
+5. Assuming DSP Orchestration manages all the interfaces except OOB, make sure you enable DHCP 
+for OOB.

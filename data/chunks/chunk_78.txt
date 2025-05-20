@@ -1,0 +1,6 @@
+Perform the following steps to install the Drut Containers clusters.
+After you configure the Drut Containers, execute the following script to install Drut Containers clusters:
+ansible-playbook playbooks/setup_k8s.yaml -e @./vars/dsp_config.yaml -e @./vars/k8s.yaml
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following command to 
+apply the changes:
+ansible-playbook playbooks/setup_k8s.yaml -e @./vars/dsp_config.yaml -e @./vars/k8s.yaml -e

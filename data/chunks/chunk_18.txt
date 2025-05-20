@@ -1,0 +1,6 @@
+private cloud infrastructure tailored to your applications and allows you to maintain control at the level 
+that you are comfortable with increasing control as you train your staff.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 5 Chapter 2. Software, Hardware, and System 
+Prerequisites
+To get started, we will need a bare metal server to deploy the DSP Orchestration software. You are 
+required to install Ubuntu 20.04 operating system on the bare metal, because the Drut packages are

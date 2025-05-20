@@ -1,0 +1,10 @@
+echo $dhcp_id
+echo $target_dhcp_id
+ 
+openstack network list --agent $dhcp_id -f value -c ID | while read  network; do
+  openstack network agent remove network $dhcp_id $network --dhcp
+  openstack network agent add network $target_dhcp_id $network --dhcp
+done
+2. Remove existing compute nodes by performing the following steps:
+Remember:  Before removing any compute nodes from the system, it is recommended that 
+you either migrate or destroy any instances that they are hosting.

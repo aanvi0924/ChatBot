@@ -1,0 +1,14 @@
+enable_redis: "no"
+  # Ceph config
+  # If you do not want to use Ceph, disable the configuration below.
+  glance_backend_ceph: "yes"
+  cinder_backend_ceph: "yes"
+  nova_backend_ceph: "yes"
+  # Glance
+  ceph_glance_keyring: "ceph.client.dsp_drut_glance.keyring"
+  ceph_glance_user: "dsp_drut_glance"
+  ceph_glance_pool_name: "DSP_images"
+  # Cinder
+  ceph_cinder_keyring: "ceph.client.dsp_drut_cinder.keyring"
+  ceph_cinder_user: "dsp_drut_cinder"
+  ceph_cinder_pool_name: "DSP_volumes"

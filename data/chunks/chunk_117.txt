@@ -1,0 +1,9 @@
+Installing Drut Storage Using Scripts
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to install Drut Storage cluster:
+1. Update the configuration file parameters of dsp_config.yaml  (on page 16)  and vars/ceph.yaml  as 
+follows:
+---
+# CEPH
+# dashboard_password: Dsp@123 # Uncomment this line and insert a password of your choice

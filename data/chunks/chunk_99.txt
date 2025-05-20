@@ -1,0 +1,8 @@
+@./vars/dsp_config.yaml
+Note:  The corresponding DX-VRM widget is registered and populated on the DSP 
+Orchestration's > Application  tab.
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following 
+command to apply the changes:
+ansible-playbook -i k8s_hosts playbooks/install_vrm.yaml -e @./vars/vrm.yaml -e 
+ @./vars/dsp_config.yaml -e @./vars/monitor_services.yaml
+Tip:  If you want to uninstall the DX-VRM, execute the following command:

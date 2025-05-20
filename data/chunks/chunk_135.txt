@@ -1,0 +1,7 @@
+Installing Drut Compute Using Kolla Ansible
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to install Drut Compute using Kolla Ansible platform:
+1. Update the /dsp_config.yaml  (on page 16)  and vars/openstack.yaml  configuration file parameters 
+as follows:
+Important:  Ensure that the neutron_external_interface  and network_interface  parameters

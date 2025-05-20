@@ -1,0 +1,7 @@
+@./vars/monitor_services.yaml
+Tip:  If you wish to install a specific server of interest, use the -t <server_name>  option. For 
+example:
+ansible-playbook playbooks/setup_monitor_services.yaml -e @./vars/dsp_config.yaml 
+ -e @./vars/monitor_services.yaml -t prometheus,grafana,loki
+The Prometheus, Grafana, and Loki applications are configured and the corresponding widgets 
+are registered and populated in the DSP Orchestration  > Application  tab and a summary with login

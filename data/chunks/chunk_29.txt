@@ -1,0 +1,6 @@
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 8 Chapter 4. Software Installation
+Installing DSP Orchestration Software
+Installing and Configuring DSP Orchestration
+Ensure that you have required environment as described in the Environment Setup  (on page 8)  procedure 
+and make sure that you are in the dsp/  folder.
+Perform the following steps to install and configure the DSP Orchestration software:

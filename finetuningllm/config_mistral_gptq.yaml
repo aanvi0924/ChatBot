@@ -1,0 +1,44 @@
+base_model: "/home/drut/chatbot/finetuningllm/mistral-7b-instruct"
+model_type: mistral
+quantization: gptq
+
+adapter: lora
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+load_in_4bit: false  # false for GPTQ
+bnb_4bit_compute_dtype: float16
+
+datasets:
+  - path: "/home/drut/chatbot/finetuningllm/data/train_manual.jsonl"
+    type: sharegpt
+evals:
+  - path: "/home/drut/chatbot/finetuningllm/data/val_manual.jsonl"
+    type: sharegpt
+
+dataset_prepared_path: null
+val_set_size: 0  # disables internal validation splitting
+
+sequence_len: 4096
+sample_packing: false
+
+batch_size: 1
+gradient_accumulation_steps: 1
+num_epochs: 3
+optimizer: adamw
+lr: 5.0e-5
+weight_decay: 0.1
+
+output_dir: "/home/drut/chatbot/finetuningllm/output/mistral_gptq_lora"
+save_steps: 100
+eval_steps: 50
+save_total_limit: 2
+
+logging_steps: 10
+eval_table_size: 2
+log_level: info
+
+save_safetensors: true
+gradient_checkpointing: true
+
+wandb_mode: disabled

@@ -1,0 +1,7 @@
+a. Add any additional VLANs that the server requires.
+b. Select the appropriate network and choose Auto assign.
+3. Configure the storage as needed. If necessary, configure LVM storage.
+4. Pool and tag the server to assign appropriate needs.
+5. After commissioning and configuring the servers, you have the option to deploy any OS on the 
+server or keep the server in a ready state to receive requests.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 15 DSP Installation Guide, Version 3.2.0

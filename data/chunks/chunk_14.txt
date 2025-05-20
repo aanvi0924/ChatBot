@@ -1,0 +1,4 @@
+Installing and Managing DFM Manually...................................................................................................47 Chapter 1. Introduction
+The Drut Software Platform (DSP) is a full stack on-prem private cloud infrastructure and platform-as-
+a-service software solution that allows you to offer cloud-like services and automation to end-users. It 
+is a multi-layered solution anchored by the DSP, which consists of a collection of open-source software

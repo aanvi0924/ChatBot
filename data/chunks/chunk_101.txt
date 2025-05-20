@@ -1,0 +1,9 @@
+Perform the Setting-up DX-VRM Machines  (on page 29)  procedure.
+Setting-up DX-VRM Machines
+Ensure that you have required environment as described in the Environment Setup  (on page 8)  procedure 
+and make sure that you are in the dsp/  folder.
+Perform the following steps to install DX-VRM software:
+1. Update the vars/dsp_config.yaml  (on page 16)  and vars/dx_lite.yaml  configuration file 
+parameters as illustrated below:
+# VRM
+vRM_URL: "https://<IPX.X.X.X:PORT>/api/virtual-resource-manager"

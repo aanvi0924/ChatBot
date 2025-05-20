@@ -1,0 +1,13 @@
+Network 
+Address
+10.83.0.0/24
+Note:  The network address entered here must match with the neutron_exter-
+nal_interface  address specified in the vars/openstack.yaml  file.
+6. In the Create Network  popup, under the Subnet  tab, specify the values of the fields as described in 
+the following table, and click Create  to complete the network creation process:
+Table 5. Networks >  Create Network Popup  >  Subnet Details Tab  Options
+Field
+Description
+Enable DHCP
+Deselect this option.
+Allocation

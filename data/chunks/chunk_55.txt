@@ -1,0 +1,8 @@
+screen.
+4. Select the Settings / KVM Host Settings  tab, apply the relevant tag to the host, and click Save 
+changes  in the DSP Orchestration portal.
+Configuring the DSP Orchestration Cloud
+Ensure that you have required environment as described in the Environment Setup  (on page 8)  procedure 
+and make sure that you are in the dsp/  folder.
+Update the dsp_config.yaml  configuration file to provide the generic credentials for creating Virtual 
+Machines (VMs).

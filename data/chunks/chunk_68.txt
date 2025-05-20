@@ -1,0 +1,7 @@
+the DSP Orchestration server details.
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following 
+command to apply the changes:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -e 
+ @./vars/dsp_config.yaml -e @./vars/monitor_services.yaml
+The Rabbitmq, Redis, and Postgresql services are configured and the corresponding widgets are updated 
+with the monitoring services and is populated in the DSP Orchestration  > Application  tab.

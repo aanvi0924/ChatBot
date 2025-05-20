@@ -1,0 +1,6 @@
+Adding New Worker Nodes to a Drut Containers Cluster
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to add worker nodes to the DFM clusters.
+To add new worker nodes to a Drut Containers cluster, execute the following command to update the 
+k8s.yaml  (on page 21)  configuration file with the new worker details:

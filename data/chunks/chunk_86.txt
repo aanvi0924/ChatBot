@@ -1,0 +1,6 @@
+Orchestration > Application  tab and a summary with login credentials are displayed on the screen.
+3. Optional:  To uninstall DFM from the Drut Containers clusters, execute the following command:
+ansible-playbook -i k8s_hosts playbooks/uninstall_fm.yaml -e @./vars/fm.yaml
+4. Optional:  To uninstall DFM from the Drut Containers clusters and cleanup the database, execute 
+the following command:
+ansible-playbook -i k8s_hosts playbooks/uninstall_fm.yaml -e @./vars/fm.yaml -e

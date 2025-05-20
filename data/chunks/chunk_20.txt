@@ -1,0 +1,10 @@
+sudoers:
+<$USER_NAME> ALL=(ALL) NOPASSWD: ALL
+Important:  We recommend setting up a fresh installation for this version of the platform.
+Recommended Hardware Specifications for Single Server DSP Orchestration
+The system should be equipped with the following hardware specifications to support DSP orchestration, 
+assuming DSP orchestration, DFM, Prometheus, Postgres, and Grafana are all running on the same 
+machine.
+• CPU:  40 cores
+• Memory: 120 GB
+• Storage:  500 GB (single disk)

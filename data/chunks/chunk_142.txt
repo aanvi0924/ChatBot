@@ -1,0 +1,8 @@
+- hostname: "DSP-openstack-control4"
+    ansible_group: compute
+2. Optional:  To use the monitoring and logging services, you need to setup the Setting-up the 
+Monitoring and Logging Services  (on page 17)  functionality.
+3. Execute the following script to install Drut Compute using Kolla Ansible:
+setup_openstack.sh
+The corresponding widget is registered and is populated in the DSP Orchestration  > Application 
+tab.

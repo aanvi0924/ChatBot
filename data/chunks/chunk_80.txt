@@ -1,0 +1,14 @@
+drut-1-kube-master2  ansible_host=10.51.10.46
+drut-1-kube-master3  ansible_host=10.51.0.56
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 23 DSP Installation Guide, Version 3.2.0
+ 
+[workers]
+drut-1-kube-worker1  ansible_host=10.51.0.57
+drut-1-kube-worker2  ansible_host=10.51.0.58
+drut-1-kube-worker3  ansible_host=10.51.0.3
+ 
+[all:vars]
+virtual_ip=10.51.0.21
+k8_ha_enabled=True
+pool=K8scluster
+# Ansible managed

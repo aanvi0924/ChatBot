@@ -1,0 +1,6 @@
+copied and renamed to the actual configuration files before proceeding with the installation..
+All the example .yaml  files are available under the dsp/vars  folder. Execute the following command 
+in your terminal to rename and copy each .example  file in the same directory, removing the .example 
+extension.
+find ./vars -type f -name "*.example"  -exec  bash -c 'dest="./vars/$(basename 
+ "$0" .example)"; [ ! -e "$dest" ] && cp "$0" "$dest"' {} \;

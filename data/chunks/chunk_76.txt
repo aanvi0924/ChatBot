@@ -1,0 +1,11 @@
+#   - hostname: "DSP-kube-worker1"
+#     ansible_group: workers
+#   - hostname: "DSP-kube-worker2"
+#     ansible_group: workers
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 22 DSP Installation Guide, Version 3.2.0
+#   - hostname: "DSP-kube-worker3"
+#     ansible_group: workers
+Important:
+• High Availability (HA)  is currently supported. You need at least three masters and multiple 
+workers.
+• Make sure to reserve the virtual IP address under DSP Orchestration.

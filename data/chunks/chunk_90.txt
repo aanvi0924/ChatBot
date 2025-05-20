@@ -1,0 +1,6 @@
+ansible-playbook playbooks/add_k8s_worker.yaml -e @./vars/dsp_config.yaml -e @./vars/k8s.yaml
+CAUTION:  We recommend that you do not change or remove any existing machine details.
+Installing DX-VRM
+Introduction
+DX introduces new features that allow for virtual disaggregation of GPU server resources, which enables 
+the essential technology, known as "vPODs" or virtual PODs, enabling dynamic allocation of resources

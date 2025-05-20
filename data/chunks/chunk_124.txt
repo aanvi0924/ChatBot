@@ -1,0 +1,7 @@
+details, execute the following command:
+ansible-playbook playbooks/ceph_addhost.yaml -e @./vars/dsp_config.yaml -e 
+ @./vars/ceph.yaml
+Installing Drut Storage Manually as an Administrator
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to manually install the Drut Storage as an administrator. Using this procedure,

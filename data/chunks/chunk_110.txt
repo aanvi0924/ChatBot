@@ -1,0 +1,11 @@
+aiwb_postgres_host: "<DB_HOST_IP>"
+aiwb_rabbitmq_ip: "<RABBITMQ_HOST_IP>"
+nfsserver_host: "<NFS_HOST_IP>"
+nexusrepo_registry_url: "<NEXUS_URL>"
+nexusrepo_rouser: "<NEXUS_RO_USER>"
+nexusrepo_ropassword: "<NEXUS_RO_PASSWORD>"
+nexusrepo_rwuser: "<NEXUS_RW_USER>"
+nexusrepo_rwpassword: "<NEXUS_RW_PASSWORD>"
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 31 DSP Installation Guide, Version 3.2.0
+nexusrepo_reponame: "<NEXUS_REPO_NAME>"
+nexusrepo_path: workbench/workloads

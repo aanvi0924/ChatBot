@@ -1,0 +1,8 @@
+-d'{"RemoteRedfishServiceUri" :"https://
+fmrelease-fabric-element-service:19090/redfish/v1"}'   -X POST 
+ https://localhost:9811/redfish/v1/Managers
+3. To install DFM without NFS  server enabled, execute the following command:
+helm install --namespace=fabric-manager fmrelease fabric-manager-<FM_RELEASE_VERSION>.tgz 
+ --set
+global.fabricm_host=<FM_HOST>,logs.nfs.enabled=false,fm_optical_health_monitor_interval=60
+,global.northbound_security.enabled=true

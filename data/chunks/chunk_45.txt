@@ -1,0 +1,5 @@
+you prefer to complete the setup later, click Skip Setup  at the bottom of the page.
+3. By default the Region name  group is built based on the name of the host server on which DSP 
+Orchestration is running. You can choose to change it to different name or leave it as is.
+4. In the Connectivity  group, set the DNS forwarder  value to 8.8.8.8  to enable the resolution of 
+domains not managed by the DSP Orchestration software and click Save and continue.

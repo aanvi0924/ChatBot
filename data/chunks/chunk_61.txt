@@ -1,0 +1,14 @@
+pool: "DSP-Monitor"   # The pool will be created if it does not exist, or you can add a 
+ custom pool name.
+# By default, the following in-built names are used. If you want to specify the 
+ Prometheus, Grafana, 
+# and Loki hostnames names according to your requirements, uncomment the relevant section 
+ and provide
+# the necessary details.
+# To Prometheus
+# prometheus_machine:
+#   - hostname: "DSP-prometheus"
+#     ansible_group: prometheus
+ 
+# To Grafana
+# grafana_machine:

@@ -1,0 +1,10 @@
+Mainte­
+nance 
+Mode
+Select this option to place the host in maintenance mode (stops all Drut Storage 
+daemons on host). By default this option is deselected.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 37 DSP Installation Guide, Version 3.2.0
+The node is added to the hosts list.
+5. From the left-navigation pane, select Dashboard >  Cluster >  Services.
+The Services  page appears in the content pane displaying all available services.
+Installing Drut Compute Using Kolla Ansible

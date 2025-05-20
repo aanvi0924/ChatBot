@@ -1,0 +1,8 @@
+set_default_zones: false
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 27 DSP Installation Guide, Version 3.2.0
+dxlite_zone_name: VRM
+dxlite_rack_name: Rack1
+Important:
+If you set the set_default_zones  value to true, the zone and rack names defined in the 
+dxlite_zone_name  and dxlite_rack_name  variables will be created automatically in DFM.
+If you set the set_default_zones  value to false, the zone and rack names specified in the

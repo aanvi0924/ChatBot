@@ -1,0 +1,8 @@
+you can bootstrap an admin node, install the required packages, and add nodes to the cluster.
+1. Make sure you have at least two interfaces:
+a. Drut Storage mon/admin network (PUB network).
+b. Drut Storage cluster network (SClust network).
+2. Deploy the necessary machines from the DSP Orchestration page.
+Bootstrapping an Admin Node
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.

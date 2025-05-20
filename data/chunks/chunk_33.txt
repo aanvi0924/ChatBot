@@ -1,0 +1,14 @@
+Declaration
+Description
+dsp_orc_s-
+nap_path
+Provide the absolute path to the DSP Orchestration snapshot.
+dsp_user-
+name
+By default, the administrator username is set to drut. However, you can modify it to 
+any preferred value based on your requirements.
+dsp_pass-
+word
+By default, the administrator password is set to drut. However, you can modify it to 
+any preferred value based on your requirements.
+3. To install DSP Orchestration and other necessary packages, run the following command:

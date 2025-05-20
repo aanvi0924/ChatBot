@@ -1,0 +1,19 @@
+services that are used to curate a standards-based environment for next-generation cloud services.
+*Hover over each icon/block and click to view the related documentation.
+Optional Tools
+Drut Software Platform (DSP) Solution
+DSP Orchestration (Bare Metal)
+Drut Fabric 
+Manager (DFM)            
+Monitoring and Logging 
+Statistics
+Troubleshooting & 
+Maintenance
+Drut Software Platform
+Drut Hardware
+Fabric Interface Card 
+(iFIC | tFIC 2500)
+Photonic Resource Unit 
+(PRU 2500)
+Photonic Fabric
+(PXC)

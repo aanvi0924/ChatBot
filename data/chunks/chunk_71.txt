@@ -1,0 +1,8 @@
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -t rabbitmq
+5. To install Drut Postgres with DFM database, RabbitMQ, and Redis together on either a local or a 
+remote machine, execute the following command:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -t 
+ rabbitmq,drut_postgres,redis
+Installing Drut Containers
+Configuring Drut Containers
+Ensure that you have the required environment as described in the Environment Setup  (on page 8)

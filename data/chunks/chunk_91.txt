@@ -1,0 +1,9 @@
+according to software workloads. It facilitates direct data transfer between application memory spaces 
+within GPUs in the same machine or other machines without utilizing the CPU. This capability includes:
+• Point-to-point link
+• Reconfigurability
+• Distribution across multiple machines
+Components of DX-VRM
+The DX-VRM software comprises of the following components:
+vRM (Virtual Resource Manager)
+This service configures and manages off -the-shelf resources for the DFM. vRM is as a Drut

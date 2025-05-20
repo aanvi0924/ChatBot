@@ -1,0 +1,7 @@
+machine is in ready state with the provided host name, and set the skip_allocation  para­
+meter to true.
+If you intend to create new VMs from dsp_config.yaml  (on page 16), set the skip_allo-
+cation  parameter to false.
+To create Virtual Machines (VMs) on the go, you need to deploy the Operating System 
+(OS) on a Bare Metal machine and register it as a Kernel Virtual Machine (KVM) host with 
+specific tags.

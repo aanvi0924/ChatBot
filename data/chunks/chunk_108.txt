@@ -1,0 +1,7 @@
+Installing Drut Workbench
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder. You need to have the following components 
+before proceeding with installing Drut Workbench
+1. Install Postgres, NFS, and Rabbitmq by executing the following command:
+ansible-playbook -i hosts playbooks/setup_all.yaml -e @./vars/dsp-orc.yaml -t 
+ aiwb_postgres,aiwb_rabbitmq,aiwb_nfs

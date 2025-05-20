@@ -1,0 +1,8 @@
+nexusrepo_path: workbench/workloads
+enable_https: true # If set to true, you will be using the https protocol; else you will 
+ be using the http  protocol
+3. Execute the following command to install the Drut Workbench on the Drut Containers using the 
+k8s_hosts  inventory file:
+ansible-playbook -i k8s_hosts playbooks/install_aiworkbench.yaml -e @./vars/aiwb.yaml -e 
+ @./vars/dsp_config.yaml
+Note:  The corresponding Drut Workbench widget is registered and populated on the DSP

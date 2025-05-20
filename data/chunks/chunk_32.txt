@@ -1,0 +1,23 @@
+[maas_region_controller:children]
+all_in_one
+ 
+[redis:children]
+all_in_one
+ 
+[rabbitmq:children]
+all_in_one
+ 
+[nfs:children]
+all_in_one
+Note:  Ensure that the host machine has access to the SSH keys.
+2. Update the variable values in the vars/dsp-orc.yaml  configuration file as per the following table:
+---
+#DSP
+dsp_orc_snap_path: "<DRUT_MAAS_SNAP_HTTP_URL_OR_LOCAL_PATH>"
+dsp_username: drut
+dsp_password: drut
+Variable 
+Declaration
+Description
+dsp_orc_s-
+nap_path

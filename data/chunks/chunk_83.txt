@@ -1,0 +1,10 @@
+dsp_config.yaml (on page 16)  file, and update the vars/fm.yaml  (on page 24)  configuration file 
+as illustrated below to install DFM on all hosts listed in the k8s_hosts  (on page 23)  file:
+---
+# To FM
+drut_fm_url: "<DRUT_FM_HELM_PACKAGE_HTTP_URL_OR_LOCAL_PATH>"
+ 
+fm_db_host_ip: "<FM_DB_HOST_IP>" # DFM database Host IP
+fm_mq_host_ip: "<FM_MQ_HOST_IP>" # DFM RabbitMQ Host IP
+fm_redis_host_ip: "<FM_REDIS_HOST_IP>" # DFM Redis HOST IP
+nfs_host_ip: "<NFS_HOST_IP>" # DFM NFS Host IP

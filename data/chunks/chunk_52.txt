@@ -1,0 +1,7 @@
+After some time, you will be able to view all the servers on the Hardware  > Machines  page in the DSP 
+Orchestration portal.
+The DSP Orchestration portal generates and displays random host names by default. However, you have 
+the option to provide a more meaningful and useful host name if needed.
+Perform the following steps to complete the configuration tasks:
+1. Start commissioning each server.
+2. Configure the network as required by following these steps:

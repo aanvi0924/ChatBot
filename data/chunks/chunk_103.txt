@@ -1,0 +1,14 @@
+rack_fqgn: "Drut.VRM.Rack1"
+    # List of each VM details this list should match with resource_block_count and its 
+ optional
+    vm_details:
+      - hostname: ABC1
+        cpu_count: 10
+        memory: 102400
+        storage: sda:50
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 29 DSP Installation Guide, Version 3.2.0
+        interfaces: eth0:space=public-api
+      - hostname: ABC
+        cpu_count: 10
+        memory: 10240
+        storage: sda:50

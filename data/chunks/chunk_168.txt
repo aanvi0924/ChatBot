@@ -1,0 +1,2 @@
+helm uninstall fmrelease --namespace=fabric-manager
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 47

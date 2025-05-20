@@ -1,0 +1,7 @@
+Container docker service running on the DFM server.
+vRUH (Virtual Resource Unit Host):
+vRUH is a machine (VM or bare metal), that hosts the vRUG service for each device. The 
+vRUH can be deployed as a VM on the same server as DFM.
+vRUG (Virtual Resource Unit Group)
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 26 DSP Installation Guide, Version 3.2.0
+Each vRUG is a collection of emulators for each off-the-shelf server, represented by virtual

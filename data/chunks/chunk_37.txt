@@ -1,0 +1,7 @@
+The following installation instructions are based on the assumption that you are using a rack with one 
+switch and ten servers.
+Note:  You can extend this configuration to a variety of network configurations based on your 
+requirements.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 11 DSP Installation Guide, Version 3.2.0
+You must configure the required networks to complete the configuration. The following table illustrates an 
+example of a network configuration:

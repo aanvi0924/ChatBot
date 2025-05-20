@@ -1,0 +1,9 @@
+1. Once the k8s_hosts  file is generated, update the vars/vrm.yaml  configuration file as illustrated 
+below to install DX-VRM on all hosts listed in the k8s_hosts  file:
+---# To VRM
+vrm_helm_url: "<DRUT_VRM_HELM_PACKAGE_HTTP_URL_OR_LOCAL_PATH>"
+vrm_namespace: "virtual-resource-manager"
+REDIS_SERVER: "<DEFAULT_FM_REDIS_HOST_IP>" # Should be FM Redis server IP
+vrm_deploy_time: 120
+vrm_retry_deploy_interval: 30
+set_default_zones: false

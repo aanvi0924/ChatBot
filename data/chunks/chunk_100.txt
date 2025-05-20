@@ -1,0 +1,6 @@
+ansible-playbook -i k8s_hosts playbooks/uninstall_vrm.yaml -e @./vars/vrm.yaml
+Note:  The corresponding DX-VRM is de-registered and the widget is removed from the DSP 
+Orchestration's > Application  tab.
+DX-VRM service will be installed in the same Drut Containers where DFM is installed and will be 
+discoverable by DFM and a summary with login credentials are displayed on the screen.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 28 DSP Installation Guide, Version 3.2.0

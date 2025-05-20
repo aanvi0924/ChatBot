@@ -1,0 +1,6 @@
+Notice:  If the switch does not handle DHCP, you will have to manually assign a static IP 
+address for each VLAN in DSP Orchestration, using .2  addressing for each VLAN.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 13 DSP Installation Guide, Version 3.2.0
+For example, you can specify the IP address as 192.168.10.2.
+5. On the following screen, choose the necessary Ubuntu images or CentOS images as required and 
+click Continue.

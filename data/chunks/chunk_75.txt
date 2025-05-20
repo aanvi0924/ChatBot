@@ -1,0 +1,16 @@
+DSP-kube-master1, DSP-kube-master2, 
+# and DSP-kube-masterN; and so on hostnames names according to your requirements, uncomment the 
+ relevant section and provide
+# the necessary details.
+ 
+# k8s_machines:
+#   - hostname: "DSP-kube-master1"
+#     ansible_group: masters
+#     cpu_count: 4
+#   - hostname: "DSP-kube-master2"
+#     ansible_group: masters
+#     cpu_count: 4
+#   - hostname: "DSP-kube-master3"
+#     ansible_group: masters
+#     cpu_count: 4
+#   - hostname: "DSP-kube-worker1"

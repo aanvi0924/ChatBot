@@ -1,0 +1,12 @@
+Enable DHCP
+Deselect this option.
+Allocation 
+Pools
+Enter 10.83.0.150,10.83.0.250  based on the reservation in the DSP Orchestra­
+tion for this network.
+DNS Name 
+Servers
+Enter 8.8.8.8  or you can specify any of your corporate DNS servers.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 46 DSP Installation Guide, Version 3.2.0
+Installing and Managing DFM Manually
+Ensure that you have required environment as described in the Environment Setup  (on page 8)  procedure

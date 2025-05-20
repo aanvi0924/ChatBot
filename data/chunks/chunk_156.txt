@@ -1,0 +1,6 @@
+done
+Verify that the migrations were successful.
+3. Stop all services running on the hosts being removed by executing the following command:
+kolla-ansible -i openstack_hosts stop --yes-i-really-really-mean-it --limit <node_name>
+4. Remove the hosts from the Ansible inventory (openstack_hosts  and vars/openstack.yaml).
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 44 DSP Installation Guide, Version 3.2.0

@@ -1,0 +1,8 @@
+,global.northbound_security.enabled=true
+4. To view the installed version of DFM, execute the following command:
+helm list -n fabric-manager
+5. To upgrade to a new DFM version, execute the following command:
+helm upgrade --debug fmrelease --namespace=fabric-manager --set 
+ global.fabricm_host=<FM_HOST>,logs.nfs.enabled=false,global.northbound_security.enabled=t
+rue /tmp/fabric-manager-upgrade.tgz --force
+6. To uninstall DFM, execute the following command:

@@ -1,0 +1,6 @@
+credentials are displayed on the screen.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 18 DSP Installation Guide, Version 3.2.0
+Perform the Enabling Monitoring Services for DSP Orchestration  (on page 19)  procedure.
+Enabling Monitoring Services for DSP Orchestration
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.

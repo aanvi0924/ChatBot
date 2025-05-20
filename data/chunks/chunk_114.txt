@@ -1,0 +1,9 @@
+procedure and make sure that you are in the dsp/  folder.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 32 DSP Installation Guide, Version 3.2.0
+1. After setting up the parameters in the vars/dsp_config.yaml  (on page 16)  file, update the vars/
+vpod.yaml  configuration file as illustrated below to enable OS deployment on the VPod machines:
+---
+distro: "ubuntu/jammy"
+vpod_name: <VPOD_NAME>
+aiwb_server: https://<AIWB_SERVICE_IP:PORT>
+nexus_server: <NEXUS_SERVER_IP:PORT>

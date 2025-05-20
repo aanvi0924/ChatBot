@@ -1,0 +1,8 @@
+sudo docker login drutio:443
+3. Copy the public key ceph.pub  to each node by executing the following command:
+ssh-copy-id -f -i /etc/ceph/ceph.pub root@<all_nodes>
+Adding Nodes to the Cluster
+Perform the following steps to add nodes to the cluster.
+1. Login to the Drut Storage portal: https://<admin_node_ip>:8443  using your credentials.
+2. From the left-navigation pane, select Dashboard > Cluster  > Hosts.
+The Hosts List  tab appears in the content pane displaying all available hosts.

@@ -1,0 +1,15 @@
+# To Grafana
+# grafana_machine:
+#   - hostname: "DSP-grafana"
+#     ansible_group: grafana
+ 
+# admin_user: "drut"
+# admin_password: "drut"
+ 
+# To Loki
+# loki_machine:
+#   - hostname: "DSP-loki"
+#     ansible_group: loki
+2. To install the monitoring and logging services, execute the following command:
+ansible-playbook playbooks/setup_monitor_services.yaml -e @./vars/dsp_config.yaml -e 
+ @./vars/monitor_services.yaml

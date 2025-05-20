@@ -1,0 +1,22 @@
+all_in_one
+ 
+[redis:children]
+all_in_one
+ 
+[rabbitmq:children]
+all_in_one
+ 
+[nfs:children]
+all_in_one
+◦If you are configuring the DSP Orchestration software on a different machine, update the 
+hosts  file as shown below:
+# Define hosts for MAAS here
+[all_in_one]
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 9 DSP Installation Guide, Version 3.2.0
+<other_host_ip_address>  ansible_user=<username>
+ 
+[postgres:children]
+all_in_one
+ 
+[maas_region_controller:children]
+all_in_one

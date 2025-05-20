@@ -1,0 +1,6 @@
+Perform the Installing DFM on Drut Containers Clusters  (on page 24)  procedure.
+Installing DFM on Drut Containers Clusters
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to install and manage DFM clusters:
+1. Once the k8s_hosts  (on page 23)  file is generated, setup the parameters in the vars/

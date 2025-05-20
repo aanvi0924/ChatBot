@@ -1,0 +1,9 @@
+pool: "DSP-K8" # The pool will be created if it does not exist, or you can add a custom pool 
+ name.
+ 
+# If you want to specify the K8s machines host names, ansible group names, and CPU counts 
+ according to 
+# your requirements, uncomment this section and provide the necessary details.
+ 
+# By default, the following in-built names are used. If you want to specify the 
+ DSP-kube-master1, DSP-kube-master2,

@@ -1,0 +1,30 @@
+# LangChain and Ecosystem
+langchain
+langchain-community
+langchain-huggingface
+openai
+tiktoken
+chromadb
+
+# PDF and Document Processing
+PyMuPDF
+pdfplumber
+PyPDF2
+unstructured[local-inference,pdf]
+
+# OCR
+pytesseract
+
+# Embeddings and Vector Search
+sentence-transformers
+faiss-cpu
+
+# General ML / NLP
+transformers
+scikit-learn
+
+# Basic Data Libraries
+pandas
+numpy
+matplotlib
+requests

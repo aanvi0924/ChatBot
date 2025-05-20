@@ -1,0 +1,7 @@
+environment. Ensure that devices are powered.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 7 Chapter 3. Environment Setup
+Follow these steps to set up the environment:
+1. Install virtual environment dependencies. Although Ubuntu 20.04 comes with Python 3 pre-
+installed, you need to run the following command on the host machine’s command line to install 
+Python 3 in venv:
+sudo apt install python3 python3.8-venv python3-pip

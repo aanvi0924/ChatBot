@@ -1,0 +1,6 @@
+12. Installing DFM on Drut Containers Clusters  (on page 24)
+13. Adding New Worker Nodes to a Drut Containers Cluster  (on page 26)
+Installing DX-VRM Service
+Ensure that you have required environment as described in the Environment Setup  (on page 8)  procedure 
+and make sure that you are in the dsp/  folder.
+Follow these steps to install DX-VRM services on the same Drut Containers where DFM is installed.

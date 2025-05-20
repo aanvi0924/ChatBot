@@ -1,0 +1,15 @@
+dsp_pass-
+word
+Provide the password to log into the dsp_url  portal.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 16 DSP Installation Guide, Version 3.2.0
+Variable 
+Declaration
+Description
+dsp_pri-
+mary_net-
+work_space
+Provide a space name that has a logical grouping of subnets that helps control network 
+access and communication between machines.
+skip_allo-
+cation
+To use a machine that already exists in the DSP Orchestration cloud, make sure that the

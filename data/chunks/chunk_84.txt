@@ -1,0 +1,7 @@
+nfs_host_ip: "<NFS_HOST_IP>" # DFM NFS Host IP
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 24 DSP Installation Guide, Version 3.2.0
+bmc_username: "<BMC_USER_NAME>" # Provide the BMC username
+bmc_password: "<BMC_PASSWORD>" # Provide the BMC password
+2. Execute the following command to install DFM:
+ansible-playbook -i k8s_hosts playbooks/install_fm.yaml -e @./vars/fm.yaml -e 
+ @./vars/dsp_config.yaml

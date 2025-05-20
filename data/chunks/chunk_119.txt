@@ -1,0 +1,14 @@
+corresponding pool 
+# are created within the cluster. Additionally, Drut Storage serves as the backend for 
+ Drut Compute.
+ 
+# If the create_openstack_config value is set to false, the configuration file and the 
+ corresponding 
+# pool can be created within the cluster at a later time as needed.
+create_openstack_config: false
+ 
+ceph_default_machines_config:
+  cpu_count: 4
+  tags: : "<TAG_NAME>" #SET KVM HOST TAG
+  memory: 10240
+  storage: sda:50,sdb:50,sdc:50,sdd:50
