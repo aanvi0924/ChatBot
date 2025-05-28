@@ -14,6 +14,8 @@ CHROMA_DB_DIR = os.path.join(DATA_DIR, "chromadb")
 import requests
 
 url = 'https://storage.googleapis.com/workbench_datasets/ChatBot/DSP%20Installation%20Guide.pdf'
+       #'https://storage.googleapis.com/workbench_datasets/ChatBot/pdf-documents/solution-briefs/Drut%20Solution%20Brief%202500%20Series.pdf'
+       #'https://storage.googleapis.com/workbench_datasets/ChatBot/pdf-documents/employee-handbook/Drut%20Employee%20Handbook_KEKA.pdf'
 os.makedirs(DATA_DIR, exist_ok=True)
 
 response = requests.get(url)
