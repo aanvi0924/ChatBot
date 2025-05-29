@@ -1,5 +1,7 @@
 # Use official PyTorch image with CUDA (for GPU support)
-FROM python:3.10-slim-bullseye
+FROM python:3.11
+WORKDIR /app
+RUN pip install pip==21.3.1
 
 
 # Set environment variables
@@ -9,9 +11,12 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /app
 
 # Install system dependencies
-RUN apt-get update && apt-get install -y \
-    git curl nano \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get -y install nano procps wget tar curl unzip sqlite3 && \
+    apt-get clean && \
+     build-essential libsqlite3-dev ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
+
 
 # Upgrade pip first
 RUN pip install --upgrade pip
