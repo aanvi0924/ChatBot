@@ -12,10 +12,10 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && \
-    apt-get -y install nano procps wget tar curl unzip sqlite3 && \
+    apt-get install -y nano procps wget tar curl unzip sqlite3 build-essential libsqlite3-dev ca-certificates && \
     apt-get clean && \
-     build-essential libsqlite3-dev ca-certificates && \
     rm -rf /var/lib/apt/lists/*
+
 
 
 # Upgrade pip first

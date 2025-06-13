@@ -2,6 +2,7 @@ import os
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"  # protobuf fix
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS 
 import torch
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -66,6 +67,7 @@ def generate_response(query, context, max_tokens=300):
 
 # === Flask App ===
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/rag", methods=["POST"])
 def rag_endpoint():
