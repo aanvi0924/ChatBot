@@ -1,4 +1,5 @@
 import os
+import requests
 
 # Get the directory where this script is located
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -11,11 +12,12 @@ PDF_PATH = os.path.join(DATA_DIR, "DSP_Installation_Guide.pdf")
 JSON_PATH = os.path.join(DATA_DIR, "dsp_elements.json")
 CSV_PATH = os.path.join(DATA_DIR, "dsp_elements.csv")
 CHROMA_DB_DIR = os.path.join(DATA_DIR, "chromadb")
-import requests
 
-url = 'https://storage.googleapis.com/workbench_datasets/ChatBot/DSP%20Installation%20Guide.pdf'
-       #'https://storage.googleapis.com/workbench_datasets/ChatBot/pdf-documents/solution-briefs/Drut%20Solution%20Brief%202500%20Series.pdf'
-       #'https://storage.googleapis.com/workbench_datasets/ChatBot/pdf-documents/employee-handbook/Drut%20Employee%20Handbook_KEKA.pdf'
+# Ask user for the PDF URL
+url = input("Enter the PDF URL to download: ").strip()
+if not url:
+    raise ValueError("A valid PDF URL must be provided.")
+
 os.makedirs(DATA_DIR, exist_ok=True)
 
 response = requests.get(url)

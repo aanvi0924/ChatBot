@@ -8,7 +8,10 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "finetuningllm", "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 # === File paths ===
-JSON_URL = "https://storage.googleapis.com/workbench_datasets/ChatBot/dsp_orchestration_full_prompts.json"
+# Ask user for the JSON dataset URL
+JSON_URL = input("Enter the JSON dataset URL to download: ").strip()
+if not JSON_URL:
+    raise ValueError("A valid JSON dataset URL must be provided.")
 JSON_PATH = os.path.join(DATA_DIR, "dsp_orchestration_full_prompts.json")
 JSONL_PATH = os.path.join(DATA_DIR, "dsp_orchestration_formatted.jsonl")
 
