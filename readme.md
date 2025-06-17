@@ -6,8 +6,8 @@ This project demonstrates a two-stage workflow for working with LLMs: embedding 
 1. **Embedding Stage**
     - Create a virtual environment.
     - Install dependencies from `requirements.txt`.
-    - Run `modeldownload.py` to download and save embedding and LLM models.
-    - (Optionally) Run your embedding script.
+    - Run `modeldownload.py` to download and save LLM models(All Mini LM)for embeddings and (Mistral-7B V2)for llm.
+    - Run your embedding script.
 
 2. **Finetuning Stage**
     - Create a new, separate virtual environment.
@@ -50,17 +50,59 @@ deactivate
 ```
 
 ## File Descriptions
-- `requirements.txt` — Dependencies for embedding/model download.
-- `modeldownload.py` — Downloads and saves embedding and LLM models.
-- `requirements_finetuning.txt` — Dependencies for finetuning.
-- `data_finetuning.py` — Prepares data for finetuning.
-- `finetuningllm.py` — Finetunes the LLM.
-- `inference.py` — Runs inference with the finetuned model.
+- `requirements.txt` — Lists all Python dependencies needed for downloading and running embedding and LLM models, such as `torch`, `transformers`, and `sentence-transformers`.
+- `modeldownload.py` — Contains scripts to download pre-trained embedding models and large language models (LLMs) from sources like Hugging Face, and saves them locally for later use.
+- `embeddings.py` — Handles the creation, storage, and retrieval of vector embeddings for documents or queries, supporting efficient similarity search and retrieval in the RAG pipeline.
+- `requirements_finetuning.txt` — Specifies additional Python dependencies required specifically for the finetuning process, such as `datasets`, `accelerate`, and `peft`.
+- `data_finetuning.py` — Prepares and processes raw data for finetuning, including cleaning, formatting, tokenization, and splitting into training and validation sets.
+- `finetuningllm.py` — Implements the logic for finetuning the downloaded LLM on custom datasets, including the training loop, evaluation, and saving the finetuned model.
+- `inference.py` — Provides scripts to load the finetuned model and run inference (generate predictions or responses) on
+- `rag_pipeline.py` — Implements the Retrieval-Augmented Generation (RAG) pipeline, combining retrieval of relevant documents using embeddings with LLM-based answer generation.
+- `rag_server.py` — Sets up an API server (e.g., using FastAPI or Flask) to serve the RAG pipeline, allowing external applications to send queries and receive generated responses.
+- `predockerization.py` — Contains scripts or configuration steps to prepare the application for containerization, such as environment setup, dependency checks, and file organization.
+
 
 ## Notes
 - Always activate the correct virtual environment before running scripts.
 - Adjust paths in scripts as needed for your directory structure.
 - Ensure you have sufficient disk space and GPU resources for model downloads and finetuning.
+
+## JSON Message Formats
+
+### Original Format
+
+```json
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "What are the hardware and software prerequisites for installing DSP Orchestration?"
+    },
+    {
+      "role": "assistant",
+      "content": "DSP Orchestration requires a bare metal server with Ubuntu 20.04 installed. The recommended hardware should support running DSP orchestration, DFM, Prometheus, Postgres, and Grafana on the same machine. For software, required dependencies include Python 3 and relevant Python virtual environment packages (python3-venv, python3-pip). The environment setup requires installing these packages and setting up the Python virtual environment named dsp_env."
+    }
+  ]
+}
+```
+
+### Final Format
+
+```json
+{
+  "messages": [
+    {
+      "from": "human",
+      "value": "What are the hardware and software prerequisites for installing DSP Orchestration?"
+    },
+    {
+      "from": "gpt",
+      "value": "DSP Orchestration requires a bare metal server with Ubuntu 20.04 installed. The recommended hardware should support running DSP orchestration, DFM, Prometheus, Postgres, and Grafana on the same machine. For software, required dependencies include Python 3 and relevant Python virtual environment packages (python3-venv, python3-pip). The environment setup requires installing these packages and setting up the Python virtual environment named dsp_env."
+    }
+  ],
+  "text": "<|im_start|>user\nWhat are the hardware and software prerequisites for installing DSP Orchestration?<|im_end|>\n<|im_start|>assistant\nDSP Orchestration requires a bare metal server with Ubuntu 20.04 installed. The recommended hardware should support running DSP orchestration, DFM, Prometheus, Postgres, and Grafana on the same machine. For software, required dependencies include Python 3 and relevant Python virtual environment packages (python3-venv, python3-pip). The environment setup requires installing these packages and setting up the Python virtual environment named dsp_env.<|im_end|>\n"
+}
+```
 
 ## Dockerization
 After preparing your environment and running the necessary scripts, you can containerize your RAG server using Docker.
