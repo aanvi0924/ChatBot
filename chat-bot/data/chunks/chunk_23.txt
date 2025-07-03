@@ -1,0 +1,9 @@
+Drut Hardware
+The following hardware is required only for a complete Drut Type 1 installation and is dependent on the 
+specific installation type:
+• Drut iFIC 2500 (Initiator Fabric Interface Card) per Bare metal system.
+• Drut PRU 2500 (Photonic Resource Unit chassis (1,2 or 4)).
+• Drut tFIC 2500 (target Fabric Interface Card) per Resource Unit chassis.
+• Drut Photonic Fabric (PXC, plus cabling).
+Drut Software
+The following Drut software is necessary:

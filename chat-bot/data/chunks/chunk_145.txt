@@ -1,0 +1,7 @@
+sudo snap remove maas --purge
+Backing-up DSP Orchestration and DFM Databases
+Perform the following steps to backup your DSP Orchestration and DFM databases.
+1. Execute the following command to backup your DSP Orchestration database:
+ansible-playbook -i hosts playbooks/backups.yaml -e @./vars/maas_backup.yaml
+The ssh keys, netplan, and DSP Orchestration database (postgres mass database) are backed-up 
+and the vars/maas_backup.yaml  file is updated accordingly.

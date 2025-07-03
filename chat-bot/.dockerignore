@@ -1,0 +1,10 @@
+# Ignore everything
+**
+
+# Allow specific files and folders
+!rag_server.py
+!data/chromadb/
+!models/
+!outputs/checkpoint-60/
+!requirement_rag.txt/
+!finetuningllm/mistral-7b-instruct/

@@ -1,0 +1,13 @@
+target_host=<target_node_name>
+ 
+source /etc/kolla/admin-openrc.sh
+ 
+l3_id=$(openstack network agent list --host $host --agent-type  l3 -f value -c ID)
+target_l3_id=$(openstack network agent list --host $target_host --agent-type  l3 -f value 
+ -c ID)
+ 
+echo $l3_id
+echo $target_l3_id
+ 
+openstack router list --agent $l3_id -f value -c ID | while read  router; do
+  openstack network agent remove router $l3_id $router --l3

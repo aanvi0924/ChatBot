@@ -1,0 +1,19 @@
+#!/bin/bash
+ 
+# To Stop PostgreSQL Service
+sudo systemctl stop postgresql
+ 
+# To Remove PostgreSQL packages
+sudo apt remove postgresql-cl* -y --purge
+sudo apt remove postgres* --purge -y
+ 
+# To Remove RabbitMQ packages
+sudo apt-get remove --purge rabbitmq-server
+ 
+# To Remove Redis packages
+sudo apt remove redis* -y
+sudo apt remove libhiredis0.14:amd64 -y
+sudo apt-get purge --auto-remove redis-server -y
+ 
+# To Remove DSP Orchestration snap package
+sudo snap remove maas --purge

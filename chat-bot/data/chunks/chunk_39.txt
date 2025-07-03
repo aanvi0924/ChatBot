@@ -1,0 +1,6 @@
+A network with the specified minimum required configurations is set up.
+Perform the Notes on Configuring your External Top-of-Rack (TOR) Switch  (on page 12)  procedure.
+Notes on Configuring your External Top-of-Rack (TOR) Switch
+Perform the following steps to configure your external TOR switch in DSP Orchestration:
+1. Create a VLAN interface for each network with a static IP, using .1  addressing for each VLAN. For 
+example, you can specify the subnet for ADMIN network as 192.168.10.1.

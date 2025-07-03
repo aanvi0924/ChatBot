@@ -1,0 +1,9 @@
+@./vars/aiwb.yaml
+If you want to uninstall the Drut Workbench and clean the database, execute the following 
+command:
+ansible-playbook -i k8s_hosts playbooks/uninstall_aiworkbench.yaml -e 
+ @./vars/aiwb.yaml -e cleardb=true
+Note:  The corresponding Drut Workbench is de-registered and the widget is removed from 
+the DSP Orchestration > Application  tab.
+Configuring the VPods for Drut Workbench
+Ensure that you have the required environment as described in the Environment Setup  (on page 8)

@@ -1,0 +1,8 @@
+#     ansible_group: ceph-nodes
+#     labels: "['mon', 'rgw', 'iscsi', 'osd']"
+2. Execute the following command to install Drut Storage:
+ansible-playbook playbooks/ceph_setup_cluster.yaml -e @./vars/dsp_config.yaml -e 
+ @./vars/ceph.yaml
+If the create_openstack_config  value was set to false  in the vars/ceph.yaml  (on page 33) 
+configuration file, execute the following commands in the specified order to create a configuration 
+file and a corresponding pool within the cluster:

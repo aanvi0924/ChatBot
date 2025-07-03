@@ -1,0 +1,13 @@
+virtual_ip: <VIRTUAL_IP>
+ 
+# This is the network interface participating in the negotiation of the virtual IP, e.g., eth0.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 21 DSP Installation Guide, Version 3.2.0
+network_interface: <NETWORK_INTERFACE>
+k8_ha_enabled: true
+ 
+k8s_default_machines_config:
+  cpu_count: 15
+  tags: "<TAG_NAME>" # SET KVM HOST TAG
+  memory: 32768
+  storage: sba:100
+  interfaces: eth0:space=public-api;eth1:space=admin-api

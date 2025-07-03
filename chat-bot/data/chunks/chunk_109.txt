@@ -1,0 +1,9 @@
+aiwb_postgres,aiwb_rabbitmq,aiwb_nfs
+Remember:  You can skip this step if you have already executed the setup_all.yaml  script.
+2. Once the k8s_hosts  file is generated, setup up the parameters in the vars/dsp_config.yaml  (on 
+page 16)  file, and update the vars/aiwb.yaml  configuration file as illustrated below to install Drut 
+Workbench on all hosts listed in the k8s_hosts  file:
+---
+# To AI Workbench
+aiworkbench_url: "<DRUT_AI_WORKBENCH_HELM_URL>"
+aiwb_postgres_host: "<DB_HOST_IP>"

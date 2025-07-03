@@ -1,0 +1,6 @@
+Tip:  This IP address can route the traffic to the uplink (corporate) or between the VLANs.
+2. Configure the VLAN tags for the ports where the cables are connected.
+3. Ensure that all the networks have proper routing to reach the internet and the corporate network.
+4. Update the firewall rule to reach the public/admin network in this switch:
+a. Log in to the corporate network firewall.
+b. Locate the existing firewall rule for accessing the public/admin network.

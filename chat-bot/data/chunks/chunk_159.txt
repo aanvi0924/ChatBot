@@ -1,0 +1,10 @@
+1. Login to the Drut Compute portal as admin user.
+2. Select Admin > Network >  Networks  from the left-navigation menu.
+The Drut Compute portal's Networks  content-pane is displayed listing all available networks.
+3. In the Networks  content-pane, click the Create Network  button.
+The Create Network  popup appears with the following tabs:
+◦Network
+◦Subnet
+◦Subnet Details
+In the next steps, you will have to enter and select the minimum required fields for creating a flat 
+external network.

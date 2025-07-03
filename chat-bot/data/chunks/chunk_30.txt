@@ -1,0 +1,16 @@
+1. Update the hosts  file to include the IP address of the Ubuntu machine under the [all_in_one] 
+section as per the following scenarios:
+◦If you are configuring the DSP Orchestration software in the same machine, update the 
+hosts  file as shown below:
+# Define hosts for DSP Orchestration here
+[all_in_one]
+localhost ansible_user=<username>  ansible_connection=local
+ 
+[postgres:children]
+all_in_one
+ 
+[maas_region_controller:children]
+all_in_one
+ 
+[redis:children]
+all_in_one

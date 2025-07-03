@@ -1,0 +1,11 @@
+tab.
+4. Execute the following script to add new host details in the vars/openstack.yaml  under the 
+openstack_machines  section:
+add_openstack_node.sh
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 40 Chapter 5. Troubleshooting and Maintenance
+Removing Packages, Services, and Databases When 
+Installation Errors are Encountered
+Execute the respective code snippets to address any installation errors you may have encountered:
+#!/bin/bash
+ 
+# To Stop PostgreSQL Service

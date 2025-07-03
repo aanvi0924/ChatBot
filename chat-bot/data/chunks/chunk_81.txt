@@ -1,0 +1,6 @@
+pool=K8scluster
+# Ansible managed
+If you need to regenerate the k8s_hosts  file any time, execute the following command:
+ansible-playbook playbooks/generate_inv.yaml  -e @./vars/dsp_config.yaml -e @./vars/k8s.yaml -e type=k8s
+The packages are configured and the corresponding widgets are registered and populated in the DSP 
+Orchestration > Application  tab and a summary with login credentials are displayed on the screen.

@@ -1,0 +1,12 @@
+Perform the following steps to install Drut's monitoring and logging functions:
+1. Update the vars/dsp_config.yaml  (on page 16)  and vars/monitor_services.yaml  configuration file 
+parameters as follows:
+---
+# MONITOR SERVICE
+monitor_default_machines_config:
+  cpu_count: 4
+  tags: "<TAG_NAME>" # SET KVM HOST TAG
+  memory: 10240
+  storage: sba:100
+  interfaces: eth0:space=public-space
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 17 DSP Installation Guide, Version 3.2.0

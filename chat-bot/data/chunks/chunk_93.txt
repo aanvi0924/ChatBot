@@ -1,0 +1,8 @@
+Drut components such as vPRU and vFIC. It consists of a series of Drut Container docker 
+services that are installed and executed on the vRUH.
+Prerequisites
+After you have finished all the steps in the order presented here, you can move forward with the DX-VRM 
+installation:
+1. Installing and Configuring DSP Orchestration  (on page 9)
+2. Configuring DSP Orchestration and Network  (on page 11)
+3. Notes on Configuring your External Top-of-Rack (TOR) Switch  (on page 12)

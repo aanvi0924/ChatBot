@@ -1,0 +1,7 @@
+-t maas_postgres
+2. To install only Drut Postgres and then install DFM database on either a local or a remote machine, 
+execute the following command:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -t drut_postgres
+3. To install only Redis on either a local or a remote machine, execute the following command:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -t redis
+4. To install only RabbitMQ on either a local or a remote machine, execute the following command:

@@ -1,0 +1,19 @@
+Machines (VMs).
+Update the vars/dsp_config.yaml  configuration file to include the following DSP Orchestration cloud 
+parameters:
+---
+# DSP config
+dsp_url: "https://<ip_address>:<port_no>"
+dsp_username: drut
+dsp_password: drut
+dsp_primary_network_space: public-api
+skip_allocation: true
+Variable 
+Declaration
+Description
+dsp_url
+Provide the IP address https://<x.x.x.x>:<port>where the DSP Orchestration software is 
+installed.
+dsp_user-
+name
+Provide the username to log into the dsp_url  portal.

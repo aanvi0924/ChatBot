@@ -1,0 +1,17 @@
+3. Click Add  on the top-left corner of the content pane.
+The Add Host  dialog appears.
+4. Enter the node details as per the following table and click Add Host.
+Table 2. Add Host Dialog Options
+Option
+Description
+Hostname
+Enter the host name.
+Network 
+address
+Enter the host's IP address.
+Labels
+Add required labels to run relevant services on this host. Add labels such as _admin, 
+grafana, iscsi, mds, mgr, mon, nfs, osd, rbd, rbd-mirror, or rgwv.
+Mainte­
+nance 
+Mode

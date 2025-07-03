@@ -1,0 +1,5 @@
+8. Installing Drut Workbench  (on page 31)
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 4 DSP Installation Guide, Version 3.2.0
+Drut sells and supports this software stack as three independent software bundles as part of a managed 
+service offering, which are built for you to own, and we assembled the DSP in a way to avoid vendor and 
+managed service lock-in. The flexibility provided by these solution bundles allow you build your own

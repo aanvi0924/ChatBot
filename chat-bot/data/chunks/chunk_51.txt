@@ -1,0 +1,9 @@
+11. Enable DHCP for the required networks.
+12. Create PXE subnets and enable DHCP.
+13. Setup the required configurations for the server such as:
+a. Ensure that you properly connect the network cables and enable the PXE boot sequence by 
+default.
+b. Ensure efficient use of BMC manager in DFM by providing common user names and 
+passwords for all BMCs.
+c. Power up all the servers.
+Commissioning, Configuring, and Deploying the Servers

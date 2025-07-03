@@ -1,0 +1,28 @@
+Internal (INT)
+30
+192.168.30.0/24
+internal-space
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 14 DSP Installation Guide, Version 3.2.0
+Network Name
+VLAN ID
+Subnet
+DSP Orchestration Space 
+Name
+Out of Band (OOB)
+40
+192.168.40.0/24
+oob-space
+Storage Data (SData)
+50
+192.168.50.0/24
+sdata-space
+Storage Cluster 
+(SClust)
+60
+192.168.60.0/24
+scluster-space
+Compute (COM)
+70
+192.168.70.0/24
+compute-space
+10. Choose the necessary VLAN and assign the newly created space as required.

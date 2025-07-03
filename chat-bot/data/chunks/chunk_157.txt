@@ -1,0 +1,7 @@
+Note:  All groups are listed as a comma-separated list in the groups_namescolumn, before 
+removing the host from the openstack_hosts  file.
+5. Execute the following command to reconfigure the remaining controllers to update the 
+membership of clusters such as MariaDB and RabbitMQ.
+kolla-ansible -i openstack_hosts reconfigure --limit <groups_names>
+Tip:  It is recommended to use a suitable limit, such as --limit control.
+6. Execute the following script on each host to clean-up the services.

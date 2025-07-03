@@ -1,0 +1,7 @@
+nexus_server: <NEXUS_SERVER_IP:PORT>
+2. Execute the following command to configure the VPod machines for Drut Workbench:
+ansible-playbook playbooks/setup_vpod_machines.yaml -e @./vars/dsp_config.yaml -e 
+ @./vars/vpod.yaml
+The OS is deployed on the machines in the VPod and all the necessary Nvidia drivers, Docker, and Cuda 
+toolkit is installed on the machines, and the VPod is made available for Drut Workbench.
+Installing Drut Storage

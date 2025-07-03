@@ -1,0 +1,9 @@
+5. To create the dsp_env  environment and install the necessary required packages, execute the 
+following script:
+bash ./create_env.sh
+6. Activate the dsp_env  environment by running the following command:
+source ~/dsp_env/bin/activate
+Important:  You must activate the dsp_env  environment each time you start a new shell. To 
+exit the dsp_env  environment, execute the following command:
+deactivate
+Perform the Installing and Configuring DSP Orchestration  (on page 9)  procedure.

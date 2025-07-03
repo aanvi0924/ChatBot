@@ -1,0 +1,9 @@
+click Continue.
+Note:  For uploading custom images, contact Drut Technical Support.
+6. On the next page click Finish setup. The SSH Keys for <USER>  page appears.
+7. Open a terminal window and execute the following command to generate an ssh key:
+ssh-keygen
+Hit the Enter key twice. The ssh keys are created. Execute the following command to copy the ssh 
+key:
+cat ~/.ssh/id_rsa.pub
+8. In the DSP Orchestration portal, click Upload  and paste the generated ssh key.

@@ -1,0 +1,7 @@
+▪Rabbitmq - Drut Workbench user
+◦NFS
+4. After the installation is complete, update the DSP Orchestration SSH key with the SSH key of the 
+ansible host that is running.
+You can access the DSP GUI at https://<x.x.x.x>:5443/DRUT/r. where <x.x.x.x>  represents the IP address 
+of the host where the DSP Orchestration software is installed.
+Important:  The default DSP orchestration widget is configured and populated in the DSP

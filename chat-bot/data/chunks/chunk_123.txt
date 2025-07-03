@@ -1,0 +1,8 @@
+file and a corresponding pool within the cluster:
+ansible-playbook playbooks/generate_inv.yaml  -e @./vars/dsp_config.yaml -e 
+ @./vars/ceph.yaml -e type=dsp_storage
+ansible-playbook -i dsp_storage_hosts playbooks/setup_openstack_pools.yml -e 
+ @./vars/ceph.yaml
+The corresponding widget is registered and is populated in the DSP Orchestration  > Application 
+tab.
+3. To update the ceph_machines  section in the vars/ceph.yaml  configuration file with the new host

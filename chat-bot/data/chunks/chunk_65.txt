@@ -1,0 +1,19 @@
+Perform the following steps to enable monitoring services in DSP Orchestration portal:
+1. If you want to configure monitoring services on the same machine, update the hosts  file as shown 
+below:
+# Define hosts for DSP Orchestration here
+[all_in_one]
+localhost ansible_connection=local  # <Other machine IP> or localhost 
+ ansible_connection=local
+ 
+[postgres:children]
+all_in_one
+ 
+[maas_region_controller:children]
+all_in_one
+ 
+[redis:children]
+all_in_one
+ 
+[rabbitmq:children]
+all_in_one

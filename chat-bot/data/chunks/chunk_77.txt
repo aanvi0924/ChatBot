@@ -1,0 +1,6 @@
+The Drut Containers software is configured for creating clusters. The corresponding widget is registered 
+and populated in the DSP Orchestration  > Application  tab.
+Perform the Installing Drut Containers Clusters  (on page 23)  procedure.
+Installing Drut Containers Clusters
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.

@@ -1,0 +1,7 @@
+@./vars/dsp_config.yaml -e @./vars/dx_lite.yaml -e vrugh_host=<HOSTNAME>
+Important:  You will not be able to delete a VRUG or VRUH resource if the managers are in 
+composed state.
+The VRUG and VRUGH machine collections are deployed and are now available to VRM. These machines 
+are ready for the deployment of their respective managers. Additionally, the managers will be integrated 
+into the DFM, including the establishment of PCIe peer connections.
+Installing Drut Workbench

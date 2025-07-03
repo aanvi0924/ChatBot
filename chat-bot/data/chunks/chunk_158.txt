@@ -1,0 +1,11 @@
+host=<remove_node_name>
+openstack network agent list --host $host -f value -c ID | while read  id; do
+  openstack network agent delete $id
+done
+ 
+openstack compute service list --os-compute-api-version 2.53  --host $host -f value -c ID 
+ | while read id; do
+  openstack compute service delete --os-compute-api-version 2.53  $id
+done
+Creating an External Flat Network on Drut Compute
+Perform the following steps to create an external flat network on Drut Compute.

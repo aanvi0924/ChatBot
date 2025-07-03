@@ -1,0 +1,11 @@
+#     ansible_group: ceph-admin
+#     labels: "['_admin', 'mon', 'mgr', 'monitoring']"
+#   - hostname: "DSP-ceph-control2"
+#     ansible_group: ceph-nodes
+#     labels: "['mon', 'rgw', 'mgr', 'iscsi', 'osd']"
+#   - hostname: "DSP-ceph-control3"
+#     ansible_group: ceph-nodes
+#     labels: "['mon', 'rgw', 'iscsi', 'osd']"
+#   - hostname: "DSP-ceph-control4"
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 34 DSP Installation Guide, Version 3.2.0
+#     ansible_group: ceph-nodes

@@ -1,0 +1,6 @@
+for OOB.
+6. If the switch does not handle DHCP, you will have to manually assign a static IP address for each 
+VLAN in DSP Orchestration, using .2  addressing for each VLAN. For example, you can specify the 
+IP address as 192.168.10.2.
+Establishes VLAN interfaces with the specified static IPs to ensure proper VLAN tagging on switch ports, 
+configure routing for network access, update firewall rules for connectivity, manage interfaces with MAAS,

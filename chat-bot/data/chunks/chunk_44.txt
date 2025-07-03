@@ -1,0 +1,6 @@
+where the DSP Orchestration software is installed. You will be prompted to enter a username and 
+password.
+2. Enter the username and password that you specified during the Installing and Configuring DSP 
+Orchestration  (on page 9)  process. Upon successful login, the Welcome to Drut Software 
+Platform (DSP)  page is displayed.
+Important:  If you choose to proceed with the setup, follow the steps below. Alternatively, if

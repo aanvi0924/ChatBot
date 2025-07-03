@@ -1,0 +1,9 @@
+Installing Drut Storage
+The procedures in this section contain information on how to perform the following tasks for installing 
+and configuring the Drut Storage software:
+• Installing Drut Storage Using Scripts  (on page 33)
+• Installing Drut Storage Manually as an Administrator  (on page 35)
+• Bootstrapping an Admin Node  (on page 35)
+• Installing Required Packages on Other Machines  (on page 36)
+• Adding Nodes to the Cluster  (on page 37)
+Installing Drut Storage Using Scripts

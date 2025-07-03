@@ -1,0 +1,7 @@
+ceph_mon_ip_space: <DSP-NETWORK-SPACE-NAME> # Configurable ex: public-api
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 33 DSP Installation Guide, Version 3.2.0
+ceph_cluster_network: <STORAGE_NETWORK_SUB_NET_CIDR> # Subnet designated for cluster 
+ replication, recovery, and heartbeats (configurable).
+ 
+# If the create_openstack_config value is set to true, a configuration file and a 
+ corresponding pool

@@ -1,0 +1,135 @@
+body {
+  background: linear-gradient(to bottom, #f5f0ff, #e9ddff);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chatbot-container {
+  width: 340px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbot-header {
+  background-color: #7444f5;
+  color: white;
+  padding: 14px 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.chatbot-messages {
+  padding: 16px;
+  background: #f9f6ff;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.message .icon {
+  background-color: #7444f5;
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.message .text {
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 220px;
+  font-size: 14px;
+  white-space: pre-line;
+}
+
+.message.bot .text {
+  background: #ebe3ff;       /* soft lavender for bot */
+  color: #333;
+}
+
+.message.user {
+  flex-direction: row-reverse;
+}
+
+.message.user .text {
+  background: #b299f4;       /* muted purple for user */
+  color: white;
+}
+
+.message.user .icon {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.chatbot-input {
+  display: flex;
+  border-top: 1px solid #eee;
+  padding: 10px;
+  background: white;
+}
+
+.chatbot-input input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background: #f1eaff;
+  font-size: 14px;
+  outline: none;
+}
+
+.chatbot-input button {
+  background: #7444f5;
+  border: none;
+  color: white;
+  padding: 0 14px;
+  margin-left: 10px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.chat-toggle-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #7444f5;
+  color: white;
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+}

@@ -1,0 +1,9 @@
+• Memory: 120 GB
+• Storage:  500 GB (single disk)
+This ensures optimal performance across all integrated components.
+Notice:  For the specifications for a multi-server deployment, contact Drut Technical Support.
+Third-party Hardware
+The following is the list of third-party hardware (2, 4, or 8 base metal servers) applicable only for an entry-
+level installation:
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 6 DSP Installation Guide, Version 3.2.0
+• 2, 4 or 8 bare metal servers:

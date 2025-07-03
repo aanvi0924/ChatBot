@@ -1,0 +1,7 @@
+Installing Required Packages on Other Machines
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to install the required packages on other machines that you intend to include 
+in the cluster:
+1. Execute the following commands in the order they are listed below to install the required packages 
+on the cluster machines:

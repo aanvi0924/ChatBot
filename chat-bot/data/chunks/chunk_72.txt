@@ -1,0 +1,9 @@
+procedure and make sure that you are in the dsp/  folder.
+Perform the following steps to configure the Drut Containers software.
+After setting up the parameters in the vars/dsp_config.yaml  (on page 16)  file, you need to update the 
+vars/k8s.yaml  configuration file to include the following Drut Containers configuration parameters:
+---
+# K8s
+ 
+# This is used to create the load balancer and will use this IP to connect to the K8s master.
+virtual_ip: <VIRTUAL_IP>

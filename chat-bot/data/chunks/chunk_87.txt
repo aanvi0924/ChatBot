@@ -1,0 +1,7 @@
+@./vars/dsp_config.yaml -e cleardb=true
+The corresponding widget is de-registered and removed from the DSP Orchestration  > Application 
+tab and a summary with login credentials are displayed on the screen.
+5. Optional:  To upgrade the version of DFM on the Drut Containers clusters update the drut_fm_url 
+variable in the fm.yaml  with the package version you are upgrading to, and then execute the 
+following command:
+ansible-playbook -i k8s_hosts playbooks/upgrade_fm.yaml -e @./vars/fm.yaml

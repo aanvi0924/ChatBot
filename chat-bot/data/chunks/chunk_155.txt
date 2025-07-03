@@ -1,0 +1,9 @@
+a. For each host, disable the compute service to ensure that no new instances are scheduled 
+to it by executing the following command:
+openstack compute service set <host> nova-compute --disable
+b. To migrate live instances to another host, execute the following command:
+openstack server list --all-projects --host <host>  -f value -c ID | while read 
+ server; do
+  openstack server migrate --live-migration $server
+done
+Verify that the migrations were successful.

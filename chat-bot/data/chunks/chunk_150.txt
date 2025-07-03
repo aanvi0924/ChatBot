@@ -1,0 +1,7 @@
+1. A host can be safely removed from the cluster, after all the daemons are removed from the host. To 
+remove all daemons from the host, execute the following command:
+ceph orch host drain *<host>*
+The _no_schedule  label is applied to the host. All OSDs on the host are scheduled for removal.
+2. To monitor the progress of the OSD removal operation, execute the following command:
+ceph orch osd rm status
+3. To verify if all the daemons are removed from the host, execute the following command:

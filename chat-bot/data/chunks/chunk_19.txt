@@ -1,0 +1,7 @@
+designed to work seamlessly with it.
+To begin the installation, first download the dsp_ansible package from Drut Support (support@drut.io) 
+and upload it to your Ubuntu 20.04 machine. After completing the installation, you should be able to log in 
+to the DSP graphical user interface (GUI).
+Tip:  To allow sudo commands without requiring a password, insert the following line into /etc/
+sudoers:
+<$USER_NAME> ALL=(ALL) NOPASSWD: ALL

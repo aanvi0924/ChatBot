@@ -1,0 +1,8 @@
+Orchestration's > Application  tab.
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following 
+command to apply the changes:
+ansible-playbook -i k8s_hosts playbooks/install_aiworkbench.yaml -e 
+ @./vars/aiwb.yaml -e @./vars/dsp_config.yaml -e @./vars/monitor_services.yaml
+Tip:  If you want to uninstall the Drut Workbench, execute the following command:
+ansible-playbook -i k8s_hosts playbooks/uninstall_aiworkbench.yaml -e 
+ @./vars/aiwb.yaml

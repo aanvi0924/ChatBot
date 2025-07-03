@@ -1,0 +1,6 @@
+and enable DHCP for the OOB network. This setup should effectively route traffic between VLANs and 
+provide necessary connectivity to the corporate network and internet.
+Perform the Completing Post-installation Configurations  (on page 13)  procedure.
+Completing Post-installation Configurations
+Perform the following steps to configure DSP Orchestration:
+1. Access the DSP GUI at https://<x.x.x.x>:5443/DRUT/r  where <x.x.x.x>  represents the host

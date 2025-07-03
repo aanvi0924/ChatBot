@@ -1,0 +1,24 @@
+c. Enter an appropriate name for the space in the Name  box and click Add Space. The space 
+with the specified name is added to the list of spaces.
+The following table illustrates an example of the space name associated with each network:
+Network Name
+VLAN ID
+Subnet
+DSP Orchestration Space 
+Name
+PXE
+Default (0)
+192.168.0.0/24
+pxe-space
+Admin (ADMIN)
+10
+192.168.10.0/24
+admin-space
+Public (PUB)
+20
+192.168.20.0/24
+public-space
+Internal (INT)
+30
+192.168.30.0/24
+internal-space

@@ -1,0 +1,8 @@
+dxlite_zone_name  and dxlite_rack_name  variables are ignored. Instead, zone and rack 
+names specified in the vars/dx_lite.yaml  (on page 29)  configuration file (as described 
+in the Setting-up DX-VRM Machines  (on page 29)  procedure) will be used for creating 
+zones and racks.
+2. Execute the following command to install the DX-VRM on the Drut Containers where the DFM is 
+installed:
+ansible-playbook -i k8s_hosts playbooks/install_vrm.yaml -e @./vars/vrm.yaml -e 
+ @./vars/dsp_config.yaml

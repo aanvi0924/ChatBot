@@ -1,0 +1,12 @@
+ceph_cinder_pool_name: "DSP_volumes"
+  ceph_cinder_backup_keyring: "ceph.client.dsp_drut_backup.keyring"
+  ceph_cinder_backup_user: "dsp_drut_backup"
+  ceph_cinder_backup_pool_name: "DSP_backups"
+  # Nova
+  ceph_nova_keyring: "ceph.client.dsp_drut_cinder.keyring"
+  ceph_nova_user: "dsp_drut_cinder"
+  ceph_nova_pool_name: "DSP_vms"
+  enable_prometheus_openstack_exporter_external: "yes"
+  # To Enable SSL/HTTPS
+  kolla_enable_tls_internal: "yes"
+  kolla_enable_tls_external: "yes"

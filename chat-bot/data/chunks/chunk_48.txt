@@ -1,0 +1,6 @@
+9. In DSP Orchestration, a "Space" is a logical grouping of subnets that helps control network 
+access and communication between machines. To create a space for each network and assign it 
+accordingly, perform the following steps:
+a. Select Manage > Subnets  from the menu in the DSP Orchestration Portal. The Subnets  page 
+appears.
+b. In the Subnets  page, click Add, and then select Space. The Add Space  page appears.

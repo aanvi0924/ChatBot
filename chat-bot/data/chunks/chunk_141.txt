@@ -1,0 +1,14 @@
+storage: sda:50
+  interfaces: eth0:space=public-api;eth1:space=storage-data,mode=unconfigured
+  pool: "DSP-OS"
+  neutron_external_interface: eth1
+  network_interface: eth0
+ 
+openstack_machines:
+  - hostname: "DSP-openstack-control1"
+    ansible_group: control, network, storage
+  - hostname: "DSP-openstack-control2"
+    ansible_group: control, network, monitoring
+  - hostname: "DSP-openstack-control3"
+    ansible_group: monitoring, storage
+  - hostname: "DSP-openstack-control4"

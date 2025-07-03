@@ -1,0 +1,14 @@
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 10 DSP Installation Guide, Version 3.2.0
+ansible-playbook -i hosts playbooks/setup_all.yaml -e @./vars/dsp-orc.yaml
+This command installs the following software packages along with the login credentials and is 
+displayed on the screen.
+◦MaaS
+◦PostgreSQL
+▪MaaS Database
+▪DFM Database
+▪AI Workbench Database
+◦Redis
+◦Rabbitmq
+▪Rabbitmq - DFM user
+▪Rabbitmq - Drut Workbench user
+◦NFS

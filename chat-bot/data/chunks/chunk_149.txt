@@ -1,0 +1,9 @@
+pool=vms`
+ceph auth get-or-create client.cinder-backup mon `profile rbd` osd `profile rbd pool=backups` 
+ mgr `profile rbd pool=backups`
+Cleaning-up the DFM
+Execute the following script to clean-up the DFM database:
+clean_database.sh
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 42 DSP Installation Guide, Version 3.2.0
+Removing Drut Storage Host from the Cluster
+Perform the following steps to remove a Drut Storage host from the cluster.

@@ -1,0 +1,12 @@
+storage: sda:50,sdb:50,sdc:50,sdd:50
+  interfaces: eth0:space=public-api;eth1:space=storage-data
+  pool: "DSP-Storage"    # The pool will be created if it does not exist, or you can add a 
+ custom pool name.
+ 
+# If you want to specify the ceph machines host names, ansible group names, and labels 
+ according to 
+# your requirements, uncomment this section and provide the necessary details.
+ 
+# ceph_machines:
+#   - hostname: "DSP-ceph-control1"
+#     ansible_group: ceph-admin

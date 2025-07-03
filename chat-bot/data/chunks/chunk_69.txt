@@ -1,0 +1,7 @@
+Perform the Configuring Drut Containers  (on page 21)  procedure.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 20 DSP Installation Guide, Version 3.2.0
+Enabling Monitoring Services for DSP Orchestration Using Tags (Optional)
+1. To install only DSP Orchestration Software on either a local or a remote machine, execute the 
+following command:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -e @./vars/dsp-orc.yaml 
+ -t maas_postgres

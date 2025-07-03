@@ -1,0 +1,12 @@
+are available under every openstack_machines  section.
+---
+# If setup_external_prometheus is enabled, it will create a job in the external 
+ Prometheus to scrape data
+# from the OpenStack cluster. You need to configure the following settings to use the 
+ external Prometheus.
+dsp_monitor_enable: true
+horizon_password: drut
+default_openstack_settings: |
+  enable_neutron_provider_networks: "yes"
+  kolla_base_distro: "ubuntu"
+  openstack_tag_suffix: ""

@@ -1,0 +1,6 @@
+sudo ./cephadm install
+2. Execute the following command to bootstrap the admin node:
+sudo cephadm bootstrap --mon-ip <admin_node_ip>  --cluster-network <cluster_network>
+For example: sudo cephadm bootstrap --mon-ip 10.52.0.2 --cluster-network 10.202.0.0/20
+3. Make sure to make a note of the ceph.pub  key file path or create a backup for future reference.
+Installing Required Packages on Other Machines

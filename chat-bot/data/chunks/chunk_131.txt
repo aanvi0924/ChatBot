@@ -1,0 +1,8 @@
+sudo apt-get install ceph-common
+2. Optional:  Perform this step if you are using a custom or local image for installation. Execute the 
+following commands in the order they are listed below:
+scp -r fabricm@10.1.10.107:/etc/docker/certs.d /etc/docker/
+sudo cp /etc/docker/certs.d/drutio\:443/ca.crt /usr/local/share/ca-certificates/
+sudo update-ca-certificates
+sudo systemctl restart docker
+sudo docker login drutio:443

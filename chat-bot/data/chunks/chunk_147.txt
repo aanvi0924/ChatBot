@@ -1,0 +1,11 @@
+appended with -e `login_user=<login_user_name>`  value.
+The DFM database is backed-up and the vars/fm_backup.yaml  file is updated accordingly.
+Creating Drut Storage Users and Pools for Drut Compute
+Perform the following steps to create Drut Storage users and pools for Drut Compute.
+Execute the following commands in the order they are listed below:
+ceph osd pool create volumes
+ceph osd pool create images
+ceph osd pool create backups
+ceph osd pool create vms
+ 
+rbd pool init volumes

@@ -1,0 +1,7 @@
+Note:  You will need a minimum of twice the number of cores that DFM is using.
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following 
+command to apply the changes:
+ansible-playbook -i k8s_hosts playbooks/upgrade_fm.yaml -e @./vars/fm.yaml -e 
+ @./vars/monitor_services.yaml
+Perform the Adding New Worker Nodes to a Drut Containers Cluster  (on page 26)  procedure.
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 25 DSP Installation Guide, Version 3.2.0

@@ -1,0 +1,7 @@
+Orchestration >  Application  tab. The Prometheus, Grafana, and Loki applications are not 
+configured for local DSP orchestration at this point in time.
+Perform the Configuring DSP Orchestration and Network  (on page 11)  procedure.
+Configuring DSP Physical Network
+Configuring DSP Orchestration and Network
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.

@@ -1,0 +1,17 @@
+memory: 10240
+        storage: sda:50
+        interfaces: eth0:space=public-api
+  - hostname: "R2S16-bare-105"
+    resource_block_count: 2
+    zone_fqgn: "Drut.VRM"
+    rack_fqgn: "Drut.VRM.Rack1"
+  #   vm_details: 
+  #     - hostname: ABC
+  #       cpu_count: 100
+  #       memory: 1024000
+  #       storage: sda:5000
+  #       interfaces: eth0:space=public-space
+  #     - hostname: ABCD
+  #       cpu_count: 10
+  #       memory: 10240
+  #       storage: sda:50

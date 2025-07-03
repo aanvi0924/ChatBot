@@ -1,0 +1,7 @@
+2. Download the dsp_ansible package from https://<software_download_path>  to the Ubuntu 
+machine and execute the following command to unpack the source file:
+tar -xvf <source_file>.tar.gz
+3. Change the directory to dsp/  by executing the following command:
+cd dsp/
+4. To install various components of DSP, you need to modify the installation YAML files. By default, 
+after unpacking DSP, only example YAML files (*.yaml.example) are provided. These must be

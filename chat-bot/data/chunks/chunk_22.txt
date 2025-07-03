@@ -1,0 +1,9 @@
+• 2, 4 or 8 bare metal servers:
+◦Full length, full height PCIe slot, out of band BMC management port, PXE boot port.
+◦Please check with Drut for vendor compatibility.
+• Appropriate set of PCIe Resource devices:
+◦GPU, DPU, APU, NVMe, and so on.
+◦Please check with Drut for vendor compatibility.
+• Out of band management network.
+• In band data network, as per your application needs.
+Drut Hardware

@@ -1,0 +1,3 @@
+Installing Drut Compute Using Kolla Ansible........................................................................................... 38
+Chapter 5. Troubleshooting and Maintenance...................................................................................... 41
+Removing Packages, Services, and Databases When Installation Errors are Encountered.................. 41

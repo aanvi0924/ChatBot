@@ -1,0 +1,7 @@
+and make sure that you are in the dsp/  folder.
+Perform the following steps to install and manage DFM manually:
+1. To install DFM with NFS  server enabled, execute the following command:
+helm install --name-template=fmrelease --namespace=fabric-manager --set 
+ global.fm_primary_db_host=<database machine IP>,global.fm_mq_host=<rabbitmq 
+ IP>,global.fm_redis_host=<redis machine IP>,logs.nfs.host=<nfs machine 
+ IP>,logs.nfs.path=/fabricm/logs,global.northbound_security.enabled=<true |

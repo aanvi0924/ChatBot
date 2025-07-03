@@ -1,0 +1,9 @@
+@./vars/dx_lite.yaml
+Tip:  If you want to delete DX-VRM machines, execute the following command:
+# Run this script to delete a VRUG
+ansible-playbook playbooks/delete_dx_lite_machines.yaml -e 
+ @./vars/dsp_config.yaml -e @./vars/dx_lite.yaml -e vrug_host=<HOSTNAME>
+ 
+# Run this script to delete a VRUH HOST
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 30 DSP Installation Guide, Version 3.2.0
+ansible-playbook playbooks/delete_dx_lite_machines.yaml -e

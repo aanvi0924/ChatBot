@@ -1,0 +1,18 @@
+vRM_USERNAME: "admin"
+vRM_PASSWORD: "admin"
+vRM_CONFIG: "{{vRM_URL}}/config/"
+vRM_VRUH: "{{vRM_URL}}/virtual-resource-unit-host/"
+vRM_VRUG: "{{vRM_URL}}/virtual-resource-unit-group/"
+vRM_TASK: "{{vRM_URL}}/task-response/"
+Feasibility_Check_url: "{{vRM_VRUG}}check-feasibility/"
+ 
+# VRUH
+vRUH:
+  - "S47"
+ 
+# VRUG
+vRUG:
+  - hostname: "S51"
+    resource_block_count: 2
+    zone_fqgn: "Drut.VRM"
+    rack_fqgn: "Drut.VRM.Rack1"

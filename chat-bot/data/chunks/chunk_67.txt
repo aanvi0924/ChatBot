@@ -1,0 +1,16 @@
+all_in_one
+ 
+[redis:children]
+all_in_one
+ 
+[rabbitmq:children]
+all_in_one
+ 
+[nfs:children]
+all_in_one
+Note:  Ensure that the host machine has access to the SSH keys.
+2. Execute the following command if you want to enable monitoring services on a remote machine on 
+which an instance of DSP Orchestration is running:
+ansible-playbook -i hosts playbooks/enable_maas_monitoring.yaml -e 
+ @./vars/dsp_config.yaml
+Important:  It is important that you update the  vars/dsp_config.yaml  (on page 16)  with

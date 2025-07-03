@@ -1,0 +1,7 @@
+@./vars/dsp_config.yaml
+If custom names are defined in the vars/monitor_services.yaml  file, execute the following 
+command to apply the changes:
+ansible-playbook -i k8s_hosts playbooks/install_fm.yaml -e @./vars/fm.yaml -e 
+ @./vars/dsp_config.yaml -e @./vars/monitor_services.yaml
+DFM is installed on all the clusters listed in the k8s_hosts  file. The corresponding widget is 
+registered, the fabric details are pulled into the orchestration software, and is populated in the DSP

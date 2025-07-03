@@ -1,0 +1,7 @@
+Registering Machines as KVM Hosts
+When the server is in ready-state, execute the following steps:
+1. Deploy OS by registering the machines as KVM hosts.
+2. From the DSP Orchestration software, click Hardware  and select KVM. All available KVM hosts are 
+displayed on the KVM page under the LXD  and Virsh  tabs.
+3. Select the required VM from the list of KVM hosts. The selected VM details are displayed on the 
+screen.

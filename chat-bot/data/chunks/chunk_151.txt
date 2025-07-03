@@ -1,0 +1,10 @@
+ceph orch ps <host>
+4. After all the daemons are removed from the host, execute the following command to remove the 
+host from the cluster:
+ceph orch host rm <host>
+Removing an Existing Drut Compute Node or Host
+Perform the following steps to remove an existing Drut Compute node or host.
+1. For each host being removed, find Neutron routers on that host, move them, and disable the L3 
+agent by executing the following script:
+host=<remove_node_name>
+target_host=<target_node_name>

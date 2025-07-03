@@ -1,0 +1,7 @@
+specific tags.
+The vars/dsp_config.yaml  configuration file is updated with the specified credentials for creating Virtual 
+Machines (VMs).
+Perform the Setting-up the Monitoring and Logging Services  (on page 17)  procedure.
+Setting-up the Monitoring and Logging Services
+Ensure that you have the required environment as described in the Environment Setup  (on page 8) 
+procedure and make sure that you are in the dsp/  folder.

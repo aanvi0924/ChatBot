@@ -1,0 +1,6 @@
+2. Execute the following command to backup your FM database:
+©2025 Drut Technologies Inc., All Rights Reserved. Page: 41 DSP Installation Guide, Version 3.2.0
+ansible-playbook playbooks/fm_backup.yaml -e @./vars/fm_backup.yaml --extra-vars 
+ `fm_db_host=<Add_fm_db_host_IP>`
+Important:  By default, the login_user  argument is set to drut. If the DFM database host is 
+using a different login_user  value other than the default value, then the command must be
